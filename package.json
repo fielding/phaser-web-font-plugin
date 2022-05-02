@@ -1,0 +1,38 @@
+{
+  "name": "phaser-web-font-plugin",
+  "version": "1.0.0",
+  "description": "Phaser Web Font Plugin",
+  "source": "src/WebFontPlugin.ts",
+  "main": "dist/WebFontPlugin.js",
+  "module": "dist/WebFontPlugin.esm.js",
+  "scripts": {
+    "dev": "parcel watch",
+    "build": "parcel build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-types": "^2.4.0",
+    "parcel": "^2.4.0",
+    "typescript": "^4.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fielding/phaser-web-font-plugin.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaser-plugin",
+    "phaser3",
+    "phaser3-plugin",
+    "web fonts",
+    "fonts"
+  ],
+  "author": "Fielding Johnston",
+  "bugs": {
+    "url": "https://github.com/fielding/phaser-web-font-plugin"
+  },
+  "homepage": "https://github.com/fielding/phaser-web-font-plugin"
+}
